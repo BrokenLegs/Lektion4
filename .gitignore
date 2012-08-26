@@ -10,7 +10,13 @@
 *.[Cc]ache
 *.bak
 *.log
+*.Publish.xml
+*.testsettings
+*.trx
+*.vsmdi
 
+#Ignore private folder
+/Private/
 
 #NuGet
 packages/
