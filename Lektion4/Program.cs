@@ -9,7 +9,8 @@ namespace Lektion4
     {
         static void Main(string[] args)
         {
-
+            // Exempel 1:   Gör en program-loop som frågar användaren om hen vill lista användare (list)
+            //              eller avsluta (exit). Skapa lösningen mha MVC-mönstret.
         }
     }
 }
