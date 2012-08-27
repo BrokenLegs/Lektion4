@@ -26,8 +26,6 @@ namespace Lektion4.Model.Repository
         {
             if (newUser.UserID == null)
                 throw new Exception("UserID is not allowed to be null!");
-            if (newUser.Type == null)
-                throw new Exception("User does not have a Type!");
             if (string.IsNullOrEmpty(newUser.UserName))
                 throw new Exception("UserName is not allowed to be empty!");
             if (users.Any(u => u.UserID == newUser.UserID))
